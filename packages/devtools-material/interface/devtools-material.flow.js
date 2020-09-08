@@ -15,6 +15,11 @@ declare module '@lugia/devtools-material' {
   declare type ThemeMetaParams = {
     targetPath: string,
     invalid: InvalidType,
+    option?: OutFileType
+  };
+  declare type ActionParams = {
+    targetPath: string,
+    invalid: InvalidType,
     option: OutFileType
   };
   declare type DesignInfo = {

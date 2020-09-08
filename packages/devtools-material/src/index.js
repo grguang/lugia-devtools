@@ -6,5 +6,6 @@
  */
 import { createDesignInfo } from './create';
 import { createThemeMeta } from './theme';
+import { createActions } from './action';
 
-export { createDesignInfo, createThemeMeta };
+export { createDesignInfo, createThemeMeta, createActions };
